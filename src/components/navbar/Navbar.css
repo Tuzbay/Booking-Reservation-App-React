@@ -1,0 +1,92 @@
+.navbar {
+    height: 50px;
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer {
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.navButton {
+    margin-left: 20px;
+    border: none;
+    padding: 12px 15px;
+    cursor: pointer;
+    color: #003580;
+    font-size: 14px;
+}
+
+.navButton:hover {
+    opacity: 0.96;
+}
+
+.navButtonEmpty {
+    background-color: inherit;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.navCurrency {
+    border: none;
+    color: white;
+    background-color: #003580;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.navButtonEmpty:hover {
+    background-color: #1A4A8D;
+}
+
+.navLanguage {
+    background-color: #003580;
+    border: none;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.navLanguage img {
+    width: 24px;
+    border-radius: 50%;
+    background-color: #003580;
+}
+
+.navInfo {
+    background-color: #003580;
+    color: white;
+    border: none;
+    font-size: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.navItems button {
+    margin: 0 4px;
+}
+
+.navCurrency:hover,
+.navLanguage:hover,
+.navInfo:hover {
+    background-color: #1A4A8D;
+}
