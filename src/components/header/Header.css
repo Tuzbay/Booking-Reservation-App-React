@@ -117,7 +117,8 @@
 .date {
     position: absolute;
     top: 54px;
-    left: 330px
+    left: 330px;
+    z-index: 2;
 }
 
 /* ! Option */
@@ -129,6 +130,7 @@
     color: gray;
     border-radius: 5px;
     box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    z-index: 2;
 }
 
 .optionItem {
