@@ -1,33 +1,29 @@
 # Booking Clone Project with React
 
-A small web app that tries to imitate the booking websites, you can search hotels, list the search results and go to the hotel detail page.
-
-## Video Presentation of the Project
-
-https://user-images.githubusercontent.com/77413300/213560543-15deff67-8948-4f93-abf2-75dfcefe2940.mp4
+This project is a clone of Booking's official website. My goal was to create a similar site using modern web development techniques where users can search for hotels, view search results, and navigate to detailed hotel pages.
 
 ## Technologies used in the project
 
 - React Router 
 - React useState Hook
-- Fontawesome
+- Font Awesome
 - React Icon
 - Date FNS
 - React Date Range
 
-## Getting Started with Create React App
+## Video Presentation of the Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://user-images.githubusercontent.com/77413300/213560543-15deff67-8948-4f93-abf2-75dfcefe2940.mp4
 
-### Available Scripts
+## To Run the Project, Follow the Steps Below
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository: 
+   ```sh
+   git clone https://github.com/Tuzbay/Booking-Reservation-App-React.git
+2. Install Dependencies: 
+   ```sh
+   npm install
+3. Run the Project: 
+   ```sh
+   npm start
 
